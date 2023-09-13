@@ -1,9 +1,15 @@
-// Unit tests for the helloWorld function
+
+// Unit test for the sayHello function
 describe('sayHello', function() {
     it('should be a defined function', function() {
         expect(typeof sayHello).toBe('function');
     });
+    it('should return a string when called', function() {
+        expect(typeof sayHello()).toBe("string");
+    });
 });
+
+// Unit tests for the helloWorld function
 describe('helloWorld', function() {
     it('should be a defined function', function() {
       expect(typeof helloWorld).toBe('function');
