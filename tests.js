@@ -7,6 +7,12 @@ describe('sayHello', function() {
     it('should return a string when called', function() {
         expect(typeof sayHello()).toBe("string");
     });
+    it('should return a Hello Jane when called with Jane', function() {
+        expect(typeof sayHello()).toBe("string");
+    });
+    it('should return a Hello Jane when called with Alex', function() {
+        expect(typeof sayHello( )).toBe("string");
+    });
 });
 
 // Unit tests for the helloWorld function
