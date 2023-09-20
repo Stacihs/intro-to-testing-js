@@ -1,4 +1,4 @@
-// helloWorld function 
+
 function helloWorld() {
     return "Hello, World!";
 }
@@ -10,5 +10,15 @@ function sayHello(name) {
         return "Hello, World!";
     } else {
         return `Hello, ${name}!`;
+    }
+}
+
+function isFive(input) {
+    if (input === 5) {
+        return true;
+    } else if( input === "5") {
+        return true;
+    } else {
+        return typeof input === "boolean";
     }
 }
